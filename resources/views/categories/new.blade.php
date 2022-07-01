@@ -8,7 +8,7 @@
     <div class="col-sm-4">
         <form action="/category-store" method="POST">
             @csrf
-            <label>Title</label>
+            <label>Title ABC</label>
             <input type="text" name="title" class="form-control" value="{{ old('title')}}">
             @if($errors->has('title'))
             <p class="text-danger">{{$errors->first('title')}}</p>
