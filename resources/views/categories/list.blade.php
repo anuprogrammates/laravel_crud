@@ -14,7 +14,7 @@
     <thead>
       <tr>
         <th>S.No.</th>
-        <th>Ti   tle</th>
+        <th>Title</th>
         <th>Action</th>
       </tr>
     </thead>
