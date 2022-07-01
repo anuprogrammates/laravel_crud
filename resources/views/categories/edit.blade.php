@@ -3,7 +3,7 @@
 @section('main')
 
 <div class="container pt-5">
-  <h2>Edit Categories</h2>
+  <h2>Edit Category</h2>
   <div class="row">
     <div class="col-sm-4">
         <form action="/category-update/{{$category->id}}" method="POST">
